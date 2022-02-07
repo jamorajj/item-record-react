@@ -1,0 +1,1 @@
+export const urlPattern = /^http[^\?]*.(jpg|jpeg|gif|png|tiff|bmp)(\?(.*))?$/gmi;
