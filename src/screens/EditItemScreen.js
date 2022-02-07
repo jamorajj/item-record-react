@@ -14,7 +14,6 @@ function EditItemScreen() {
   const toEdit = itemList.find(item => item.id === +params.id);
 
   const handleSubmitForm = (values) => {
-    console.log(values);
     const tempItems = [...itemList];
     tempItems.splice(itemList.findIndex(item => item.id === toEdit.id), 1, values);
     setItemList([...tempItems]);
